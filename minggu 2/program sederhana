@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<title> BIODATA MAHASISWA UDINUS</title>
+</head>
+<body>
+	<form action="contact.php" method="post">
+		<fieldset>
+			<legend>BIODATA</legend>
+			<p>
+				<label>nama					:</label>
+				<input type="text" name="nama" placeholder=""/>
+			</p>
+			<p>
+				<label>nim :</label>
+				<input type="text" name="nim" placeholder=""/>
+			</p>
+			<p>
+				<label>Tempat tanggal lahir	:</label>
+				<input type="text" name="tempat tanggal lahir" placeholder=""/>
+			</p>
+			<p>
+				<label>jenis kelamin:</label>
+				<label><input type="" name="jenis kelamin" /></label>
+			</p>
+			<p>
+				<label>umur</label>
+				<input type="number" min="10" max="30" name="umur">
+			</p>		
+			<p>
+				<label>agama :</label>
+				<select name="agama">
+					<option value="islam">isalam</option>
+					<option value="kristen">kristen</option>
+					<option value="budha">budha</option>
+					<option value="hindu">hindu</option>
+				</select>	
+			</p>
+			<p>
+				<label> tinggi badan :</label>
+				<input type="text" name="tinggi badan" placeholder="">
+			</p>
+			<p>
+				<label> berat badan :</label>
+				<input type="text" name="berat badan">
+			</p>
+			<p>
+				<label>NO Tlp</label>
+				<input type="text" name="NO Tlp"/>
+			</p>
+			<p>
+				<label>nama ayah :</label>
+				<input type="text" name="nama ayah">
+			</p>
+			<p>
+				<label>nama ibu :</label>
+				<input type="text" name="nama ibu">
+			</p>
+		</fieldset>
+		
+	</form>
+</body>
+</html>
